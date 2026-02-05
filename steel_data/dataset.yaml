@@ -1,0 +1,14 @@
+path: /steel_data/train 
+train: train_set.txt
+val: validation_set.txt
+test: test_set.txt
+
+
+# Categories
+names:
+  0: crazing
+  1: inclusion
+  2: pitted_surface
+  3: scratches
+  4: patches
+  5: rolled-in_scale
