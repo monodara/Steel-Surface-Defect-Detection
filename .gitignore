@@ -8,6 +8,7 @@ __pycache__/
 env/
 venv/
 ENV/
+.venv/
 env.bak/
 venv.bak/
 .DS_Store
