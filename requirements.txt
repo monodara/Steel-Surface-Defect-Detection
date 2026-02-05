@@ -1,12 +1,6 @@
-# Core AI Framework
-ultralytics>=8.0.0      # For YOLOv8/v11 inference and Engine support
-torch                   # PyTorch backend
-torchvision
-
-# Web Interface
-streamlit               # Frontend UI framework
-
-# Image Processing
-opencv-python-headless  # For image rendering (headless is better for servers)
-Pillow                  # For high-quality image loading
-numpy                   # For matrix operations
+ultralytics
+streamlit
+opencv-python-headless
+torch --index-url https://download.pytorch.org/whl/cpu
+torchvision --index-url https://download.pytorch.org/whl/cpu
+Pillow
